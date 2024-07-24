@@ -1,12 +1,22 @@
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 .App {
   text-align: center;
 }
-
+.navbar{
+  background-color: #cf65ff !important
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.nav-link{
+  font-weight: bold !important;
+  color: #2a1b15;
+  font-size: 20px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
