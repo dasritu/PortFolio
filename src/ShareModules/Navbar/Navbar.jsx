@@ -19,7 +19,7 @@ function FirstComponent() {
     <>
       <Navbar expand="lg" fixed="top" className='navbar'>
         <Container>
-          <Navbar.Brand href="#home"></Navbar.Brand>
+          <Navbar.Brand href="#home"><b>Rituparna Das</b></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
