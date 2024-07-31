@@ -36,9 +36,9 @@
 }
 
 .project-image {
-  width: 100%;
+  width: 86%;
   height: 150px;
-  object-fit: cover;
+  
 }
 
 .project-info {

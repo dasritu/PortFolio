@@ -1,13 +1,14 @@
 import React from 'react'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import FirstComponent from '../ShareModules/Navbar/Navbar'
-import Footer from '../ShareModules/Footer/Footer'
+
 import About from '../components/About/About.jsx';
 import Hero from '../components/Hero/hero.jsx';
 import Education from '../components/Education/Education.jsx';
 import Skill from '../components/Skills/Skills.jsx';
 import Projects from '../components/Projects/Projects.jsx';
 import Certificate from '../components/Certificate/Certificate.jsx';
+import Contact from '../components/Contact/Contact.jsx';
 
 export default function Rout() {
   return (
@@ -21,8 +22,9 @@ export default function Rout() {
               <Route path='/skill' element={<Skill/>}/>
               <Route path='/project' element={<Projects/>}/>
               <Route path='/certificate' element={<Certificate/>}/>
+              <Route path='/contact' element={<Contact/>}/>
             </Routes>
-        <Footer/>
+       
       </Router>
     </>
   )

@@ -29,6 +29,7 @@ function FirstComponent() {
               <NavLink smooth to="/skill#skill" className='nav-link' onClick={collapseNavbar}>Skills</NavLink>
               <NavLink smooth to="/project#project" className='nav-link' onClick={collapseNavbar}>Projects</NavLink>
               <NavLink smooth to="/certificate#certificate" className='nav-link' onClick={collapseNavbar}>Certificates</NavLink>
+              <NavLink smooth to="/contact#contact" className='nav-link' onClick={collapseNavbar}>Contact Me</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
